@@ -106,6 +106,7 @@ footer{
 }
 
 header {
+  padding: 18px 0;
 
 }
 
@@ -114,6 +115,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header figure {
@@ -121,7 +123,9 @@ header figure {
 }
 
 .header-divider {
-
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -129,11 +133,13 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
 .hero-area {
@@ -155,6 +161,15 @@ aside {
   flex-flow: row wrap;
 }
 
+.features h3 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
+
 .features .features-items {
   display: flex;
   justify-content: center;
@@ -162,10 +177,23 @@ aside {
   flex-flow: row wrap;
 }
 
+.features p {
+  margin: 0;
+}
+
 .reviews {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.reviews h3 {
+  margin-bottom: 40px;
+}
+
+.reviews h4 {
+  width: 55%
+  margin: 20px 0;
 }
 
 .mission {
@@ -182,6 +210,10 @@ aside {
   flex-flow: row wrap;
 }
 
+.contact-content p {
+  margin: 0;
+}
+
 .faq {
   display: flex;
   justify-content: center;
@@ -190,10 +222,31 @@ aside {
 }
 
 .faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
+
+footer {
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -208,8 +261,14 @@ footer .social-icons p {
   align-items: center;
 }
 
-footer {
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 
+}
+
+footer .copyright {
+  margin: 20px 0;
 }
 /* ==========================================================================
    Helper classes
