@@ -231,6 +231,7 @@ header nav ul li {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500; 
   line-height: 1.2;
+  color: #1aaaa7;
 }
 
 aside {
@@ -278,6 +279,7 @@ input [type=button] {
 
 .features h2 {
   margin-bottom: 60px;
+  color: #1aaaa7;
 }
 
 .features article {
@@ -295,6 +297,7 @@ input [type=button] {
 .features p {
   text-align: center;
   margin: 0;
+  color: #1aaaa7;
 }
 
 .reviews {
