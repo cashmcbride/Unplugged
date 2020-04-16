@@ -13,9 +13,14 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
 }
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+  }  
 
 /*
  * Remove text-shadow in selection highlight:
@@ -97,6 +102,26 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
+
+address { 
+font-style: normal;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -168,6 +193,8 @@ aside {
 
 .features h2 {
   margin-bottom: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
 }
 
 .features article {
@@ -194,11 +221,15 @@ aside {
 
 .reviews h2 {
   margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
 }
 
 .reviews h3 {
   width: 55%
   margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
 }
 
 .mission {
@@ -236,6 +267,8 @@ aside {
 
 .faq h2 {
   margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
 }
 
 .faq-content {
